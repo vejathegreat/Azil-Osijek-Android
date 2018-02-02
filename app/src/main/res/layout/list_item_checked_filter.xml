@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginStart="5dp"
+    android:background="@drawable/filter_shape"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@id/checkedFilter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/icon_close"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/icon_close"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        tools:text="veliki" />
+
+</LinearLayout>

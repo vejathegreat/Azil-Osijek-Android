@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="app_name">Azil</string>
+
+    <!-- MAIN NAVIGATION -->
+    <string name="allpets_nav_title">Svi psi</string>
+    <string name="mypets_nav_title">Moji psi</string>
+    <string name="about_shelter">O azilu</string>
+    <string name="logout_nav_title">    <u>Odjava</u>  </string>
+    <string name="about_association">O udruzi</string>
+    <string name="donations">Donacije</string>
+
+    <!-- REGISTER/LOGIN -->
+    <string name="email_hint">E-mail</string>
+    <string name="terms_and_conditions_text">Uvjeti korištenja</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Odustani</string>
+    <string name="error_password_too_short">Lozinka mora sadržavati najmanje 6 znakova.</string>
+    <string name="error_email_invalid">Ovaj email ne izgleda ispravno.</string>
+    <string name="error_verification_email">Ovaj email nije verificiran</string>
+
+    <!-- OTHER -->
+    <string name="username">Username</string>
+    <string name="profile_title">Profil</string>
+    <string name="gender_format">%s, </string>
+    <string name="choose_change_image">Odaberi kako želiš promijeniti sliku:</string>
+    <string name="gallery_access">Potreban je pristup galeriji za promjenu slike.</string>
+    <string name="camera_access">Potreban je pristup kameri za promjenu slike.</string>
+    <string name="camera_gallery_access">Potreban je pristup kameri i galeriji za promjenu slike.</string>
+    <string name="yes">Da</string>
+    <string name="no">Ne</string>
+    <string name="done">Gotovo</string>
+    <string name="reset_button">Resetiraj</string>
+    <string name="filter">Filter</string>
+    <string name="privacy_policy_text">Pravila privatnosti</string>
+
+    <!-- SEARCH -->
+    <string name="search_hint">Pretraživanje</string>
+    <string name="cta_button">Traži</string>
+
+    <!-- FILTER -->
+    <string name="filter_gender">Spol</string>
+    <string name="filter_male">muško</string>
+    <string name="filter_female">žensko</string>
+    <string name="filter_age">Dob</string>
+    <string name="filter_puppies">štenci</string>
+    <string name="filter_young">mladi psi</string>
+    <string name="filter_adult">odrasli psi</string>
+    <string name="filter_size">Rast</string>
+    <string name="filter_small">mali</string>
+    <string name="filter_mid">srednji</string>
+    <string name="filter_big">veliki</string>
+    <string name="change_password"><u>Promjeni lozinku</u></string>
+
+    <!-- INFO -->
+    <string name="info_user_not_logged_in_description_text">Sviđa ti se naš svijet čupavaca? Prijavi se ili registriraj kako bi imao sve opcije.</string>
+    <string name="info_continue_with_facebook_button">Nastavi putem Facebook-a</string>
+    <string name="info_login_button">Prijavi se</string>
+    <string name="info_register_button">Registriraj se</string>
+    <string name="pet_details">Detalji</string>
+    <string name="story">Priča</string>
+    <string name="info_logout_are_you_sure_alert">Jesi li siguran da se želiš odjaviti?</string>
+
+    <!-- ALL_PETS -->
+    <string name="all_pets_welcome_text">Dobrodošli u naš azilski svijet! Tapni bilo gdje na ekran za nastavak.</string>
+    <string name="all_pets_gender_male">muško</string>
+    <string name="all_pets_gender_female">žensko</string>
+    <string name="all_pets_age_puppy">štene</string>
+    <string name="all_pets_age_young">mladi pas</string>
+    <string name="all_pets_age_adult">odrasli pas</string>
+    <string name="all_pets_size_small">malog rasta</string>
+    <string name="all_pets_size_midi">srednjeg rasta</string>
+    <string name="all_pets_size_big">velikog rasta</string>
+
+    <!-- GENERAL -->
+    <string name="error_no_internet_full_screen">Čini se da nema internetske veze. Provjeri konekciju i dodirni bilo gdje na ekranu za ponovno učitavanje podataka.</string>
+    <string name="add_to_favorites_login_required_alert_title">Za nastavak je potrebna prijava.</string>
+    <string name="add_to_favorites_login_required_alert_message">Molimo te da se prijaviš kako bi mogao odabrati najdraže čupavce.</string>
+    <string name="error_no_internet">Čini se da nema internetske veze. Provjeri konekciju i pokušaj ponovo!</string>
+    <string name="server_error">Ups! Došlo je do pogreške. Molimo pokušaj ponovo malo kasnije.</string>
+    <string name="server_error_full_screen">Ups! Došlo je do pogreške. Dodirni bilo gdje na ekranu za ponovno učitavanje podataka ili pokušaj malo kasnije.</string>
+
+    <!-- MY PETS -->
+    <string name="mypets_no_content_description_title">Ovo je kutak za tvoje najdraže ljubimce</string>
+    <string name="mypets_no_content_description_message">Izaberi svoje favorite na listi svih pasa</string>
+    <string name="mypets_remove_pet_from_favorites_alert_title">Obavijest</string>
+    <string name="mypets_remove_pet_from_favorites_alert_message">Jesi li siguran/na da želiš maknuti %s sa liste svojih favorita?</string>
+
+    <!-- WELCOME -->
+    <string name="welcome_quote">\"Svaki pas ima samo jedan životni cilj - da daruje svoje srce.\"</string>
+    <string name="welcome_quote_format">\"Svaki pas ima samo jedan životni cilj - da daruje svoje srce.\"  %s</string>
+    <string name="welcome_quote_author">- J.R. Ackerley</string>
+    <string name="welcome_continue_with_facebook_button">Nastavi putem Facebooka</string>
+    <string name="welcome_proceed_to_register_button">Registracija</string>
+    <string name="welcome_proceed_to_login_button">Prijava</string>
+    <string name="welcome_skip_button">Odustani</string>
+
+    <!-- LOGIN -->
+    <string name="login_email_placeholder">Email</string>
+    <string name="login_password_placeholder">Password</string>
+    <string name="login_regular_button">Prijavi se</string>
+    <string name="login_forgot_password_link">Zaboravio si lozinku?</string>
+    <string name="login_email_invalid_error">Ovaj email ne izgleda ispravno</string>
+    <string name="login_password_too_short_error">Lozinka mora sadržavati najmanje 6 znakova</string>
+    <string name="login_not_registered">Novi si ovdje? Registriraj se</string>
+    <string name="login_wrong_password_error">Pogrešna lozinka. Provjeri lozinku i pokušaj ponovo.</string>
+
+    <!-- REGISTRATION -->
+    <string name="registration_first_last_name">Ime i prezime</string>
+    <string name="registration_email_placeholder">Email</string>
+    <string name="registration_password_placeholder">Lozinka</string>
+    <string name="registration_retype_password_placeholder">Ponovi lozinku</string>
+    <string name="registration_regular_button">Registriraj se</string>
+    <string name="registration_terms_and_condition_link">Uvjeti korištenja</string>
+    <string name="registration_first_last_name_invalid_error">Unesi ispravno ime i prezime</string>
+    <string name="registration_email_invalid_error">Ovaj email ne izgleda ispravno</string>
+    <string name="registration_password_invalid_error">Lozinka mora sadržavati najmanje 6 znakova</string>
+    <string name="registration_passwords_dont_match_error">Lozinke se ne podudaraju</string>
+    <string name="registration_user_already_registered_error">Taj korisnik već postoji</string>
+    <string name="registration_image_invalid_format_error">Došlo je do pogreške prilikom spremanja slike. Molimo te da provjeriš format. Podržani formati: .jpg, .jpeg, .png</string>
+    <string name="registration_image_upload_error">Došlo je do pogreške prilikom spremanja slike.</string>
+
+    <!-- ADOPTION -->
+    <string name="pet_details_adopt_button">Udomi me</string>
+    <string name="adoption_user_first_last_name">Ime i prezime</string>
+    <string name="adoption_user_email">Email</string>
+    <string name="adoption_message">Poruke (opcionalno)</string>
+    <string name="adoption_info_description_text">Na mail ćemo ti poslati brošuru i upitnik koji te molimo da ispuniš</string>
+    <string name="adoption_send_button">Pošalji</string>
+    <string name="adoption_success_message">Poslani su ti Upitnik za udomljenje i Brošura sa informacijama na navedeni mail.</string>
+
+    <!-- EDIT PASSWORD -->
+    <string name="edit_password_current_password_placeholder">Trenutna lozinka</string>
+    <string name="edit_password_new_password_placeholder">Nova lozinka</string>
+    <string name="edit_password_retype_new_password_placeholder">Ponovi novu lozinku</string>
+    <string name="edit_password_password_too_short_error">Lozinka mora sadržavati najmanje 6 znakova</string>
+    <string name="edit_password_passwords_dont_match_placeholder">Lozinke se ne podudaraju</string>
+    <string name="edit_password_current_password_invalid_error">Neispravna lozinka</string>
+    <string name="edit_password_success_alert">Lozinka je uspješno promijenjena!</string>
+    <string name="edit_password_title">Promijeni lozinku</string>
+
+    <!-- FORGOT PASSWORD -->
+    <string name="forgot_password_description_text">Zaboravio si lozinku? Nema problema. Upiši svoj email i poslati ćemo ti kod tako da možeš postaviti novu.</string>
+    <string name="forgot_password_email_placeholder">Email</string>
+    <string name="forgot_password_send_button">Pošalji</string>
+    <string name="forgot_password_email_invalid_error">Ovaj email ne izgleda ispravno</string>
+    <string name="forgot_password_unknown_user_error">Nepoznati korisnik. Provjeri email i pokušaj ponovo.</string>
+    <string name="forgot_password_code_expired_error">Kod je istekao. Molimo pokušajte ponovno.</string>
+    <string name="forgot_password_toolbar_title">Zaboravljena lozinka</string>
+
+    <!-- RESET PASSWORD -->
+    <string name="reset_password">Resetiraj lozinku</string>
+    <string name="reset_password_toolbar_title">Zaboravljena lozinka</string>
+    <string name="reset_password_description_text">Unesi kod koji ti je poslan na email i jednostavno postavi novu lozinku.</string>
+    <string name="reset_password_code_placeholder">Kod</string>
+    <string name="reset_password_password_placeholder">Lozinka</string>
+    <string name="reset_password_retype_password_placeholder">Ponovi lozinku</string>
+    <string name="reset_password_proceed_to_login_button">Nastavi na prijavu</string>
+    <string name="reset_password_code_invalid_error">Čini se da kod nije ispravan. Pokušaj ponovo.</string>
+    <string name="reset_password_password_too_short_error">Lozinka mora sadržavati najmanje 6 znakova</string>
+    <string name="reset_password_passwords_dont_match_error">Lozinke se ne podudaraju</string>
+
+    <!-- EDIT PROFILE -->
+    <string name="edit_profile_files_access_alert">Trebamo pristup tvojim fotografijama za tvoju profilnu sliku.</string>
+    <string name="edit_profile_camera_access_alert">Trebamo pristup tvojoj kameri za tvoju profilnu sliku.</string>
+    <string name="edit_profile_access_alert_ok_button">Odobri</string>
+    <string name="edit_profile_access_alert_cancel_button">Odustani</string>
+    <string name="edit_profile_gallery_camera_selection_alert">Kako želiš odabrati sliku?</string>
+    <string name="edit_profile_gallery_camera_selection_alert_gallery_option">Galerija</string>
+    <string name="edit_profile_gallery_camera_selection_alert_camera_option">Kamera</string>
+    <string name="edit_profile_first_last_name_invalid_error">Unesi ispravno ime i prezime</string>
+    <string name="edit_profile_image_invalid_format_error">Došlo je do pogreške prilikom spremanja slike. Molimo te da provjeriš format. Podržani formati: .jpg, .jpeg, .png</string>
+    <string name="edit_profile_image_upload_error">Došlo je do pogreške prilikom spremanja slike.</string>
+    <string name="edit_profile_image_too_big_error">Maksimalna veličina slike je 1MB.</string>
+    <string name="edit_profile_title">Uredi profil</string>
+    <string name="edit_profile_save_button">Spremi</string>
+    <string name="edit_profile_camera_files_access_alert">Trebamo pristup tvojoj kameri i fotografijama za tvoju profilnu sliku.</string>
+
+    <!-- IMAGE VIEW CONTENT DESCRIPTIONS -->
+    <string name="icon_back_description">Icon back</string>
+    <string name="icon_close_description">Icon close</string>
+    <string name="dog_image_description">Dog image</string>
+    <string name="dog_placeholder_description">Dog placeholder</string>
+    <string name="icon_checked_description">Icon checked</string>
+    <string name="icon_clear_search_input_description">Icon clear search input</string>
+    <string name="icon_favourite_description">Icon favourite</string>
+    <string name="icon_edit_description">Icon edit</string>
+    <string name="profile_image_description">Profile image</string>
+    <string name="icon_search_description">Icon search</string>
+    <string name="icon_filter_description">Icon filter</string>
+    <string name="icon_error_description">Icon error</string>
+    <string name="icon_delete_entered_search_description">Icon delete entered search</string>
+    <string name="icon_logo_description">Icon logo</string>
+    <string name="all_pets_tab_description">All pets tab</string>
+    <string name="my_pets_tab_description">My pets tab</string>
+    <string name="profile_tab_description">Profile tab</string>
+    <string name="icon_camera_description">Icon camera</string>
+
+</resources>
+

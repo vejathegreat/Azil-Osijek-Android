@@ -1,0 +1,15 @@
+package com.cobeisfresh.azil.common.constants
+
+/**
+ * Created by Zerina Salitrezic on 22/01/2018.
+ */
+
+const val ERROR_CODE_BAD_REQUEST = 400
+const val ERROR_CODE_INVALID_PASSWORD = 424
+const val ERROR_CODE_USER_ALREADY_EXISTS = 409
+const val ERROR_CODE_WRONG_TYPE_FILE = 415
+const val ERROR_CODE_IMAGE_UPLOAD = 503
+const val ERROR_CODE_PASSWORDS_MISMATCHED = 406
+const val ERROR_CODE_USER_NOT_REGISTERED = 409
+const val ERROR_CODE_WRONG_RECOVERY_CODE = 406
+const val ERROR_CODE_EXPIRED_RECOVERY_CODE = 422

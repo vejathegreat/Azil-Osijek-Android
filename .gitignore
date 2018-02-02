@@ -1,0 +1,31 @@
+*.iml
+.gradle
+.idea
+/local.properties
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+*.apk
+
+
+# Built application files
+/*/build/
+
+# Crashlytics configuations
+com_crashlytics_export_strings.xml
+
+# Signing files
+.signing/
+
+# Keystore files
+*.jks
+keystore.properties
+
+fabric.properties
+
+# Google services json files
+google-services.json
+
+.travis.yml
+

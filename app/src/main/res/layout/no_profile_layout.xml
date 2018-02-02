@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="34dp"
+    android:layout_marginLeft="34dp"
+    android:layout_marginRight="34dp"
+    android:layout_marginStart="34dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.cobeisfresh.azil.ui.custom_views.TypefaceTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="41dp"
+        android:gravity="center"
+        android:text="@string/info_user_not_logged_in_description_text"
+        android:textColor="@color/taupe_gray"
+        android:textSize="14sp" />
+
+    <com.cobeisfresh.azil.ui.custom_views.TypefaceTextView
+        android:id="@id/facebookLogin"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:background="@drawable/facebook_shape"
+        android:gravity="center"
+        android:paddingEnd="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingStart="15dp"
+        android:text="@string/info_continue_with_facebook_button"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <com.cobeisfresh.azil.ui.custom_views.TypefaceTextView
+            android:id="@id/register"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/register_shape"
+            android:gravity="center"
+            android:paddingEnd="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingStart="15dp"
+            android:text="@string/info_register_button"
+            android:textColor="@color/dark_turquoise"
+            android:textSize="18sp" />
+
+        <com.cobeisfresh.azil.ui.custom_views.TypefaceTextView
+            android:id="@id/login"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/login_shape"
+            android:gravity="center"
+            android:paddingEnd="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingStart="15dp"
+            android:text="@string/info_login_button"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</LinearLayout>

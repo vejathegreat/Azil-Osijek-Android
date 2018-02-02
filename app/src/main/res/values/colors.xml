@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="grey">#D1D1D1</color>
+    <color name="red">#ff0000</color>
+    <color name="platinum">#FFDCE3E9</color>
+    <color name="gainsboro">#FFDADADA</color>
+    <color name="taupe_gray">#FF878787</color>
+    <color name="taupe">#FF333333</color>
+    <color name="turquoise">#38B1D8</color>
+    <color name="ash_grey">#FFB2B8C2</color>
+    <color name="divider">#1A000000</color>
+    <color name="dark_turquoise">#FF00BEDF</color>
+    <color name="cornflower_blue">#FF7390EF</color>
+    <color name="tufts_blue">#3768B8</color>
+    <color name="dark_green">#01242A</color>
+    <color name="tomato">#FFFF6143</color>
+    <color name="manatee">#FF949DA5</color>
+    <color name="green">#17C600</color>
+    <color name="lavander_gray">#FFBCC3CA</color>
+    <color name="profile_image_shape_color">#D8DCDF</color>
+
+</resources>

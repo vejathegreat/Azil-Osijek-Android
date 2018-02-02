@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.cobeisfresh.azil.ui.custom_views.NonSwipeableViewPager
+        android:id="@id/mainViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/navigationView" />
+
+    <View
+        android:id="@id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@id/navigationView"
+        android:background="@color/platinum" />
+
+    <LinearLayout
+        android:id="@id/navigationView"
+        android:layout_width="match_parent"
+        android:layout_height="65.5dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@id/allPetsTab"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/all_pets_tab_description"
+            android:padding="10dp"
+            android:src="@drawable/icon_home_active" />
+
+        <ImageView
+            android:id="@id/myPetsTab"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/my_pets_tab_description"
+            android:padding="10dp"
+            android:src="@drawable/icon_heart" />
+
+        <ImageView
+            android:id="@id/profileTab"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/profile_tab_description"
+            android:padding="10dp"
+            android:src="@drawable/icon_person" />
+
+    </LinearLayout>
+
+    <include
+        android:id="@id/welcomeLayout"
+        layout="@layout/welcome_layout"
+        android:visibility="gone" />
+
+</RelativeLayout>

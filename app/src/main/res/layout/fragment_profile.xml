@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <include
+        android:id="@id/errorLayout"
+        layout="@layout/error_layout"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/dark_turquoise">
+
+        <com.cobeisfresh.azil.ui.custom_views.TypefaceTextView
+            android:id="@id/toolbarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/profile_title"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@id/iconEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:contentDescription="@string/icon_edit_description"
+            android:padding="10dp"
+            android:src="@drawable/icon_edit"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@id/rootLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@id/profileImage"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="22dp"
+                    android:layout_marginTop="36dp"
+                    android:contentDescription="@string/profile_image_description"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/user_placeholder" />
+
+                <LinearLayout
+                    android:id="@id/profileLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <com.cobeisfresh.azil.ui.custom_views.TypefaceTextView
+                        android:id="@id/username"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textColor="@color/taupe"
+                        android:textSize="23sp"
+                        tools:text="@string/username" />
+
+                    <com.cobeisfresh.azil.ui.custom_views.TypefaceTextView
+                        android:id="@id/email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:textColor="@color/ash_grey"
+                        android:textSize="14sp"
+                        tools:text="@string/email_hint" />
+
+                    <com.cobeisfresh.azil.ui.custom_views.TypefaceTextView
+                        android:id="@id/changePassword"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:gravity="center"
+                        android:text="@string/change_password"
+                        android:textColor="@color/dark_turquoise"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+                <include
+                    android:id="@id/noProfileLayout"
+                    layout="@layout/no_profile_layout"
+                    android:visibility="gone" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="34dp"
+                    android:background="@color/platinum" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingEnd="28dp"
+                    android:paddingLeft="28dp"
+                    android:paddingRight="28dp"
+                    android:paddingStart="28dp">
+
+                    <com.cobeisfresh.azil.ui.custom_views.TypefaceTextView
+                        android:id="@id/aboutShelter"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableEnd="@drawable/icon_arrow_right"
+                        android:drawableRight="@drawable/icon_arrow_right"
+                        android:paddingBottom="24dp"
+                        android:paddingTop="24dp"
+                        android:text="@string/about_shelter"
+                        android:textColor="@color/taupe"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/platinum" />
+
+                    <com.cobeisfresh.azil.ui.custom_views.TypefaceTextView
+                        android:id="@id/aboutAssociation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableEnd="@drawable/icon_arrow_right"
+                        android:drawableRight="@drawable/icon_arrow_right"
+                        android:paddingBottom="24dp"
+                        android:paddingTop="24dp"
+                        android:text="@string/about_association"
+                        android:textColor="@color/taupe"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/platinum" />
+
+                    <com.cobeisfresh.azil.ui.custom_views.TypefaceTextView
+                        android:id="@id/donate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableEnd="@drawable/icon_arrow_right"
+                        android:drawableRight="@drawable/icon_arrow_right"
+                        android:paddingBottom="24dp"
+                        android:paddingTop="24dp"
+                        android:text="@string/donations"
+                        android:textColor="@color/taupe"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/platinum" />
+
+                    <com.cobeisfresh.azil.ui.custom_views.TypefaceTextView
+                        android:id="@id/termsAndConditions"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableEnd="@drawable/icon_arrow_right"
+                        android:drawableRight="@drawable/icon_arrow_right"
+                        android:paddingBottom="24dp"
+                        android:paddingTop="24dp"
+                        android:text="@string/terms_and_conditions_text"
+                        android:textColor="@color/taupe"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/platinum" />
+
+                    <com.cobeisfresh.azil.ui.custom_views.TypefaceTextView
+                        android:id="@id/privacyPolicy"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableEnd="@drawable/icon_arrow_right"
+                        android:drawableRight="@drawable/icon_arrow_right"
+                        android:paddingBottom="24dp"
+                        android:paddingTop="24dp"
+                        android:text="@string/privacy_policy_text"
+                        android:textColor="@color/taupe"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginBottom="34dp"
+                        android:background="@color/platinum" />
+
+                    <com.cobeisfresh.azil.ui.custom_views.TypefaceTextView
+                        android:id="@id/logOut"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="34dp"
+                        android:gravity="center"
+                        android:text="@string/logout_nav_title"
+                        android:textColor="@color/dark_turquoise"
+                        android:textSize="18sp"
+                        android:visibility="gone" />
+
+                    <ProgressBar
+                        android:id="@id/progressBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</RelativeLayout>

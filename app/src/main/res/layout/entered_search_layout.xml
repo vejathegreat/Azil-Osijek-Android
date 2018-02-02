@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:paddingEnd="22dp"
+    android:paddingLeft="22dp"
+    android:paddingRight="22dp"
+    android:paddingStart="22dp">
+
+    <ImageView
+        android:id="@id/deleteEnteredSearchIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/icon_delete_entered_search_description"
+        android:padding="10dp"
+        android:src="@drawable/icon_clear_white" />
+
+    <com.cobeisfresh.azil.ui.custom_views.TypefaceEditText
+        android:id="@id/enteredSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/deleteEnteredSearchIcon"
+        android:layout_toStartOf="@id/deleteEnteredSearchIcon"
+        android:editable="false"
+        android:enabled="false"
+        android:hint="@string/search_hint"
+        android:imeOptions="actionSearch"
+        android:inputType="textCapSentences"
+        android:maxLines="1"
+        android:textColor="@color/taupe_gray"
+        android:textColorHint="@color/gainsboro"
+        android:textCursorDrawable="@color/cornflower_blue"
+        android:textSize="16sp" />
+
+</RelativeLayout>

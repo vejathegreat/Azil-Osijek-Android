@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/toolbar"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/icon_error_description"
+        android:src="@drawable/icon_error" />
+
+    <com.cobeisfresh.azil.ui.custom_views.TypefaceTextView
+        android:id="@id/errorTextFullLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="36dp"
+        android:textColor="@color/taupe_gray"
+        android:textSize="16sp"
+        tools:text="@string/error_no_internet_full_screen" />
+
+</LinearLayout>

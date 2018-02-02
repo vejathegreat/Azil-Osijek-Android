@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:ignore="RtlSymmetry">
+
+    <include
+        android:id="@id/errorLayout"
+        layout="@layout/error_layout"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/dark_turquoise">
+
+        <ImageView
+            android:id="@id/iconBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:contentDescription="@string/icon_back_description"
+            android:padding="10dp"
+            android:src="@drawable/icon_back" />
+
+        <com.cobeisfresh.azil.ui.custom_views.TypefaceTextView
+            android:id="@id/toolbarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/edit_profile_title"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@id/profileImageLayout"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="36dp"
+        android:background="@drawable/profile_grey_shape">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@id/profileImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:contentDescription="@string/profile_image_description"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@id/iconCamera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/icon_camera_description"
+            android:src="@drawable/icon_camera"
+            tools:ignore="ContentDescription" />
+
+    </RelativeLayout>
+
+    <com.cobeisfresh.azil.ui.custom_views.TypefaceTextInputEditText
+        android:id="@id/fullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profileImageLayout"
+        android:layout_marginEnd="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/registration_first_last_name"
+        android:imeOptions="actionDone"
+        android:inputType="textCapWords"
+        android:maxLines="1"
+        android:textColor="@color/taupe"
+        android:textColorHint="@color/manatee"
+        android:textSize="16sp"
+        android:theme="@style/EditTextFormStyle" />
+
+    <com.cobeisfresh.azil.ui.custom_views.TypefaceTextView
+        android:id="@id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="34dp"
+        android:background="@drawable/authorization_button_selector"
+        android:enabled="false"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="@string/edit_profile_save_button"
+        android:textColor="@drawable/authorization_text_selector" />
+
+    <ProgressBar
+        android:id="@id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

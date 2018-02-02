@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/dark_turquoise</item>
+        <item name="colorPrimaryDark">@color/dark_turquoise</item>
+        <item name="colorAccent">@color/dark_turquoise</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="EditTextFormStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorControlNormal">@color/platinum</item>
+        <item name="colorControlActivated">@color/turquoise</item>
+        <item name="colorControlHighlight">@color/turquoise</item>
+    </style>
+
+</resources>
