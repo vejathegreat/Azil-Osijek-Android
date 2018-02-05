@@ -29,7 +29,7 @@ Use the Android Studio Build Variants button to choose between production and st
 [ConstraintLayout](https://developer.android.com/training/constraint-layout/index.html),
 [CircleImageView](https://github.com/hdodenhof/CircleImageView),
 [TouchImageView](https://github.com/MikeOrtiz/TouchImageView),
-[CircleIndicator](https://github.com/ongakuer/CircleIndicator),
+[CircleIndicator](https://github.com/ongakuer/CircleIndicator)
 
 ## License: MIT
 
