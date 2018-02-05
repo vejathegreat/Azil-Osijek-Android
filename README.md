@@ -11,25 +11,25 @@ You can check our app on [Google Play Store](https://play.google.com/store/apps/
 Use the Android Studio Build Variants button to choose between production and staging flavors combined with debug and release build types.
 
 ## Libraries
-[Android Support Library](https://developer.android.com/topic/libraries/support-library/index.html),
-[Kotlin](https://kotlinlang.org/docs/reference/using-gradle.html),
-[MockitoKotlin](https://github.com/nhaarman/mockito-kotlin),
-[JUnit4](http://junit.org/junit4/),
-[Retrofit](http://square.github.io/retrofit/),
-[Retrofit2RxJava2Adapter](https://github.com/JakeWharton/retrofit2-rxjava2-adapter),
-[OkHttpLoggingInterceptor](https://github.com/square/okhttp/tree/master/okhttp-logging-interceptor),
-[Dagger 2](https://google.github.io/dagger/),
-[RxJava 2](https://github.com/ReactiveX/RxJava),
-[LeakCanary](https://github.com/square/leakcanary),
-[Crashlytics](https://fabric.io/kits/android/crashlytics/summary),
-[Facebook](https://developers.facebook.com/docs/android/),
-[Firebase](https://firebase.google.com/docs/android/setup),
-[EventBus](https://github.com/greenrobot/EventBus),
-[Glide](https://github.com/bumptech/glide),
-[ConstraintLayout](https://developer.android.com/training/constraint-layout/index.html),
-[CircleImageView](https://github.com/hdodenhof/CircleImageView),
-[TouchImageView](https://github.com/MikeOrtiz/TouchImageView),
-[CircleIndicator](https://github.com/ongakuer/CircleIndicator)
+* [Android Support Library](https://developer.android.com/topic/libraries/support-library/index.html)
+* [Kotlin](https://kotlinlang.org/docs/reference/using-gradle.html)
+* [MockitoKotlin](https://github.com/nhaarman/mockito-kotlin)
+* [JUnit4](http://junit.org/junit4/)
+* [Retrofit](http://square.github.io/retrofit/)
+* [Retrofit2RxJava2Adapter](https://github.com/JakeWharton/retrofit2-rxjava2-adapter)
+* [OkHttpLoggingInterceptor](https://github.com/square/okhttp/tree/master/okhttp-logging-interceptor)
+* [Dagger 2](https://google.github.io/dagger/)
+* [RxJava 2](https://github.com/ReactiveX/RxJava)
+* [LeakCanary](https://github.com/square/leakcanary)
+* [Crashlytics](https://fabric.io/kits/android/crashlytics/summary)
+* [Facebook](https://developers.facebook.com/docs/android/)
+* [Firebase](https://firebase.google.com/docs/android/setup)
+* [EventBus](https://github.com/greenrobot/EventBus)
+* [Glide](https://github.com/bumptech/glide)
+* [ConstraintLayout](https://developer.android.com/training/constraint-layout/index.html)
+* [CircleImageView](https://github.com/hdodenhof/CircleImageView)
+* [TouchImageView](https://github.com/MikeOrtiz/TouchImageView)
+* [CircleIndicator](https://github.com/ongakuer/CircleIndicator)
 
 ## License: MIT
 
